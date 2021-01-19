@@ -3,7 +3,7 @@ set -e
 
 
 if [ $# -lt 1 ]; then
-   echo "Faltou informar o branch do checkout"
+   echo "Faltou informar o nome do migration"
    exit 1
 fi
 
